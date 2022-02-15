@@ -42,8 +42,8 @@ def _generate_col_desc(n_column: int) -> str:
     return "| c " * n_column + "|"
 
 
-def include_image(img_path, scale=0.2) -> str:
-    return f"\\newline\\newline\\\\\n\\includegraphics[scale={scale}]{{{img_path}}}\\\\\n"
+def include_image(path: str, scale: float = 0.2) -> str:
+    return f"\\newline\\newline\\\\\n\\includegraphics[scale={scale}]{{{path}}}\\\\\n"
 
 
 def latex_header(title: str, author: str, date: str) -> str:
