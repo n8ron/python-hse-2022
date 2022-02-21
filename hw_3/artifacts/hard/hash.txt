@@ -1,0 +1,1 @@
+Hash AB is equal to 50, hash CD is equal to 53
