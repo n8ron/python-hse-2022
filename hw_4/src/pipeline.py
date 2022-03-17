@@ -8,8 +8,8 @@ from multiprocessing.connection import Connection
 def worker_a(in_queue: Queue, out_pipe: Connection):
     while True:
         msg: str = in_queue.get()
-        time.sleep(5)
         out_pipe.send(msg.lower())
+        time.sleep(5)
 
 
 def worker_b(in_pipe: Connection, out_pipe: Connection):

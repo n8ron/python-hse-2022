@@ -1,9 +1,7 @@
-Receive "Hello" on 13:05:55
-Processed "uryyb" on 13:06:00
-Receive "Test123" on 13:06:03
-Processed "grfg123" on 13:06:08
-Receive "How are you?" on 13:06:16
-Processed "ubj ner lbh?" on 13:06:21
-Receive "ahahahahah" on 13:06:35
-Processed "nununununu" on 13:06:40
-Exit on 13:06:47
+Receive "Hello" on 10:53:36
+Processed "uryyb" on 10:53:36
+Receive "Hi" on 10:53:38
+Processed "uv" on 10:53:41
+Receive "Python" on 10:53:41
+Processed "clguba" on 10:53:46
+Exit on 10:53:53
